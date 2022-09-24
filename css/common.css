@@ -1,0 +1,209 @@
+/* 设置版心居中 */
+.wrapper {
+    position: relative;
+    width: 1240px;
+    margin: 0 auto;
+}
+
+/* 快捷导航栏 */
+.shotcut {
+    width: 100%;
+    height: 52px;
+    background-color: #333333;
+}
+
+.shotcut .wrapper {
+    height: 100%;
+}
+
+.shotcut .wrapper ul {
+    float: right;
+}
+
+.shotcut .wrapper ul li {
+    line-height: 52px;
+    float: left;
+}
+
+.shotcut .wrapper a {
+    padding: 0 16px;
+    border-right: 1px solid #666;
+    color: #dcdcdc;
+}
+
+/* 需要注意的是，lastchild这个并不是指向子类，而是由子类指向父类再指向子类 */
+.shotcut .wrapper li:nth-child(7) a {
+    border-right: none;
+}
+
+.shotcut .wrapper a span {
+    display: inline-block;
+    width: 11px;
+    height: 16px;
+    background: url(../images/sprites.png);
+    background-position: -160px -70px;
+    vertical-align: middle;
+}
+
+/* 网页头部区域 */
+.header {
+    margin-top: 30px;
+    height: 70px;
+}
+
+.header .logo {
+    float: left;
+    height: 70px;
+    width: 207px;
+}
+
+.header .logo a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: url(../images/logo.png);
+    background-size: contain;
+    font-size: 0;
+}
+
+.header .nav {
+    float: left;
+    margin-left: 40px;
+    /* 这里初步写的时候就直接写一个数据上去就行，不要用行宽 */
+    height: 70px;
+}
+
+.nav li {
+    float: left;
+    line-height: 70px;
+    margin-right: 48px;
+}
+
+.nav li a {
+    padding-bottom: 7px;
+}
+
+.nav li a:hover {
+    border-bottom: #27ba9b solid 1px;
+    color: #27ba9b;
+}
+
+.search {
+    float: left;
+    margin-left: 34px;
+    margin-top: 24px;
+    height: 30px;
+    width: 172px;
+    border-bottom: #e7e7e7 solid 1px;
+}
+
+/* span为行内元素，没办法设置宽高 */
+.search span {
+    position: relative;
+    display: inline-block;
+    height: 19px;
+    width: 19px;
+    background: url(../images/sprites.png);
+    background-position: -79px -69px;
+}
+
+.search input {
+    display: inline-block;
+    position: absolute;
+    margin-top: 4px;
+    margin-left: 11px;
+    width: 141px;
+}
+
+.search input::placeholder {
+    font-size: 14px;
+    color: #cccccc;
+}
+
+.cart {
+    float: left;
+    margin-left: 15px;
+    margin-top: 24px;
+    height: 24px;
+    width: 24px;
+    background: url(../images/sprites.png);
+    background-position: -119px -68px;
+}
+
+/* 网页底部区域 */
+.footer {
+    position: relative;
+    height: 343px;
+    background-color: #333333;
+}
+
+.footer .wrapper {
+    width: 1393px;
+}
+
+.footer .top {
+    height: 175px;
+    border-bottom: 3px #434343 solid;
+    padding-left: 120px;
+    padding-top: 60px;
+}
+
+.top li {
+    position: relative;
+    float: left;
+    width: 195px;
+    height: 58px;
+    margin-right: 300px;
+    line-height: 58px;
+}
+
+.footer .top li:nth-child(3) {
+    margin-right: 0;
+}
+
+.top li::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 58px;
+    width: 58px;
+    background: url(../images/sprites.png);
+    vertical-align: middle;
+}
+
+.top li:nth-child(2)::before {
+    background-position: -130px 0;
+}
+
+.top li:nth-child(3)::before {
+    background-position: -64px 0;
+}
+
+.top li span {
+    margin-left: 74px;
+    font-size: 28px;
+    color: #ffffff;
+}
+
+
+.copyright {
+    margin-top: 40px;
+    font-size: 14px;
+    text-align: center;
+    color: #999;
+}
+
+.copyright a {
+    padding: 0 12px;
+    border-right: #999 solid 1px;
+    color: #999;
+}
+
+.copyright p a:last-child {
+    border-right: 0;
+}
+
+.copyright p:last-child {
+    margin-top: 15px;
+}

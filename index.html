@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 网站标题栏小图标设置 -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- 外链式样式表越下面比重越大 -->
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>练习1</title>
+</head>
+
+<body>
+    <!-- 最顶部导航条 -->
+    <div class="shotcut">
+        <div class="wrapper">
+            <ul>
+                <li><a href="#">请先登录</a></li>
+                <li><a href="#">免费注册</a></li>
+                <li><a href="#">我的订单</a></li>
+                <li><a href="#">会员中心</a></li>
+                <li><a href="#">帮助中心</a></li>
+                <li><a href="#">在线客服</a></li>
+                <li><a href="#">
+                        <span></span>
+                        手机版
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 头部区域 -->
+    <div class="header wrapper">
+        <div class="logo">
+            <a href="#">
+                <h1>小兔鲜儿</h1>
+            </a>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="#">首页</a></li>
+                <li><a href="#">生鲜</a></li>
+                <li><a href="#">美食</a></li>
+                <li><a href="#">餐厨</a></li>
+                <li><a href="#">电器</a></li>
+                <li><a href="#">居家</a></li>
+                <li><a href="#">洗护</a></li>
+                <li><a href="#">孕婴</a></li>
+                <li><a href="#">服装</a></li>
+            </ul>
+        </div>
+        <div class="search">
+            <span></span>
+            <input type="text" placeholder="搜一搜">
+        </div>
+        <div class="cart"></div>
+    </div>
+
+    <div class="column">
+        <div class="wrapper">
+            <!-- 这里需要做一个轮播图，在html中用无向列表来做 -->
+            <ul class="swiper">
+                <li><img src="./uploads/banner_1.png" alt=""></li>
+            </ul>
+            <span class="back"></span>
+            <span class="front"></span>
+            <ol class="indicate-dots">
+                <li></li>
+                <li></li>
+                <li class="current"></li>
+                <li></li>
+                <li></li>
+            </ol>
+            <div class="left-menu">
+                <ul>
+                    <li><a href="#">示例<span>示例 文本</span></a></li>
+                    <li><a href="#">示例<span>示例 文本</span></a></li>
+                    <li><a href="#">示例<span>示例 文本</span></a></li>
+                    <li><a href="#">示例<span>示例 文本</span></a></li>
+                    <li><a href="#">示例<span>示例 文本 示例 文本</span></a></li>
+                    <li><a href="#">示例<span>示例 文本</span></a></li>
+                    <li><a href="#">示例<span>示例 文本</span></a></li>
+                    <li><a href="#">示例<span>示例 文本</span></a></li>
+                    <li><a href="#">示例<span>示例 文本</span></a></li>
+                    <li><a href="#">示例<span>示例 文本</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="cate-container wrapper">
+        <div class="hd">
+            <h2>标题区域
+                <span>小标题区 小标题区</span>
+            </h2>
+            <a href="#">查看全部</a>
+        </div>
+        <div class="bd">
+            <!-- 一般带图片的需要多个的也可以使用ul -->
+            <ul>
+                <li>
+                    <img src="./uploads/new_goods_1.jpg" alt="">
+                    <div class="goods-detail">
+                        <p>睿米无线吸尘器F8</p>
+                        <p class="pric">￥899</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="./uploads/new_goods_1.jpg" alt="">
+                    <div class="goods-detail">
+                        <p>睿米无线吸尘器F8</p>
+                        <p class="pric">￥899</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="./uploads/new_goods_1.jpg" alt="">
+                    <div class="goods-detail">
+                        <p>睿米无线吸尘器F8</p>
+                        <p class="pric">￥899</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="./uploads/new_goods_1.jpg" alt="">
+                    <div class="goods-detail">
+                        <p>睿米无线吸尘器F8</p>
+                        <p class="pric">￥899</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- brand-new -->
+    <div class="brand">
+        <div class="wrapper">
+            <div class="hd">
+                <h2>标题区域
+                    <span>小标题区 小标题区</span>
+                </h2>
+                <!-- <a href="#">查看全部</a> -->
+            </div>
+            <div class="skip">
+                <a href="#" class="front iconfont">&#xe642;</a>
+                <a href="#" class="back iconfont">&#xe628;</a>
+            </div>
+            <div class="brand-items">
+                <ul>
+                    <li>
+                        <img src="./uploads/brand_goods_1.jpg" />
+                    </li>
+                    <li>
+                        <img src="./uploads/brand_goods_1.jpg" />
+                    </li>
+                    <li>
+                        <img src="./uploads/brand_goods_1.jpg" />
+                    </li>
+                    <li>
+                        <img src="./uploads/brand_goods_1.jpg" />
+                    </li>
+                    <li>
+                        <img src="./uploads/brand_goods_1.jpg" />
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- 商品列表区域 -->
+    <div class="goods wrapper">
+        <div class="hd">
+            <h2>标题区域
+                <!-- 这一块没有小标题的区域 -->
+                <!-- <span>小标题区 小标题区</span> -->
+            </h2>
+            <ul>
+                <li><a href="#">文本</a></li>
+                <li><a href="#">文本</a></li>
+                <li><a href="#">文本</a></li>
+                <li><a href="#">文本</a></li>
+                <li><a href="#">文本</a></li>
+                <li><a href="#">文本</a></li>
+                <li><a href="#">文本</a></li>
+            </ul>
+            <a href="#">查看全部</a>
+        </div>
+        <div class="left-goods">
+            <a href="#"><img src="./uploads/fresh_goods_cover.png" alt=""></a>
+        </div>
+        <div class="right-goods">
+            <div class="right-goods-items">
+                <a href="#">
+                    <img src="./uploads/fresh_goods_1.jpg" alt="">
+                </a>
+                <p class="goods-title">美威 智利原味三文鱼排xxxxxx</p>
+                <p class="spec">240g/袋 4片装</p>
+                <p class="category">海鲜年货</p>
+                <p class="price">
+                    <span>￥</span>
+                    <span>59</span>
+                </p>
+                <div class="cover">
+                    <div class="similer">
+                        <a href="#">找相似</a>
+                    </div>
+                    <div class="more">
+                        <a href="#">发现更多宝贝
+                            <span class="iconfont">&#xe642;</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="right-goods-items">
+                <a href="#">
+                    <img src="./uploads/fresh_goods_1.jpg" alt="">
+                </a>
+                <p class="goods-title">美威 智利原味三文鱼排xxxxxx</p>
+                <p class="spec">240g/袋 4片装</p>
+                <p class="category">海鲜年货</p>
+                <p class="price">
+                    <span>￥</span>
+                    <span>59</span>
+                </p>
+                <div class="cover">
+                    <div class="similer">
+                        <a href="#">找相似</a>
+                    </div>
+                    <div class="more">
+                        <a href="#">发现更多宝贝
+                            <span class="iconfont">&#xe642;</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="right-goods-items">
+                <a href="#">
+                    <img src="./uploads/fresh_goods_1.jpg" alt="">
+                </a>
+                <p class="goods-title">美威 智利原味三文鱼排xxxxxx</p>
+                <p class="spec">240g/袋 4片装</p>
+                <p class="category">海鲜年货</p>
+                <p class="price">
+                    <span>￥</span>
+                    <span>59</span>
+                </p>
+                <div class="cover">
+                    <div class="similer">
+                        <a href="#">找相似</a>
+                    </div>
+                    <div class="more">
+                        <a href="#">发现更多宝贝
+                            <span class="iconfont">&#xe642;</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="right-goods-items">
+                <a href="#">
+                    <img src="./uploads/fresh_goods_1.jpg" alt="">
+                </a>
+                <p class="goods-title">美威 智利原味三文鱼排xxxxxx</p>
+                <p class="spec">240g/袋 4片装</p>
+                <p class="category">海鲜年货</p>
+                <p class="price">
+                    <span>￥</span>
+                    <span>59</span>
+                </p>
+                <div class="cover">
+                    <div class="similer">
+                        <a href="#">找相似</a>
+                    </div>
+                    <div class="more">
+                        <a href="#">发现更多宝贝
+                            <span class="iconfont">&#xe642;</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="right-goods-items">
+                <a href="#">
+                    <img src="./uploads/fresh_goods_1.jpg" alt="">
+                </a>
+                <p class="goods-title">美威 智利原味三文鱼排xxxxxx</p>
+                <p class="spec">240g/袋 4片装</p>
+                <p class="category">海鲜年货</p>
+                <p class="price">
+                    <span>￥</span>
+                    <span>59</span>
+                </p>
+                <div class="cover">
+                    <div class="similer">
+                        <a href="#">找相似</a>
+                    </div>
+                    <div class="more">
+                        <a href="#">发现更多宝贝
+                            <span class="iconfont">&#xe642;</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="right-goods-items">
+                <a href="#">
+                    <img src="./uploads/fresh_goods_1.jpg" alt="">
+                </a>
+                <p class="goods-title">美威 智利原味三文鱼排xxxxxx</p>
+                <p class="spec">240g/袋 4片装</p>
+                <p class="category">海鲜年货</p>
+                <p class="price">
+                    <span>￥</span>
+                    <span>59</span>
+                </p>
+                <div class="cover">
+                    <div class="similer">
+                        <a href="#">找相似</a>
+                    </div>
+                    <div class="more">
+                        <a href="#">发现更多宝贝
+                            <span class="iconfont">&#xe642;</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="right-goods-items">
+                <a href="#">
+                    <img src="./uploads/fresh_goods_1.jpg" alt="">
+                </a>
+                <p class="goods-title">美威 智利原味三文鱼排xxxxxx</p>
+                <p class="spec">240g/袋 4片装</p>
+                <p class="category">海鲜年货</p>
+                <p class="price">
+                    <span>￥</span>
+                    <span>59</span>
+                </p>
+                <div class="cover">
+                    <div class="similer">
+                        <a href="#">找相似</a>
+                    </div>
+                    <div class="more">
+                        <a href="#">发现更多宝贝
+                            <span class="iconfont">&#xe642;</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="right-goods-items">
+                <a href="#">
+                    <img src="./uploads/fresh_goods_1.jpg" alt="">
+                </a>
+                <p class="goods-title">美威 智利原味三文鱼排xxxxxx</p>
+                <p class="spec">240g/袋 4片装</p>
+                <p class="category">海鲜年货</p>
+                <p class="price">
+                    <span>￥</span>
+                    <span>59</span>
+                </p>
+                <div class="cover">
+                    <div class="similer">
+                        <a href="#">找相似</a>
+                    </div>
+                    <div class="more">
+                        <a href="#">发现更多宝贝
+                            <span class="iconfont">&#xe642;</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 最新专题 -->
+    <div class="the-new">
+        <div class="wrapper">
+            <div class="hd">
+                <h2>标题区域</h2>
+                <a href="#">查看全部</a>
+            </div>
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="./uploads/topic_goods_1.jpg">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./uploads/topic_goods_2.jpg">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./uploads/topic_goods_3.jpg">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 网页底部 -->
+    <div class="footer">
+        <div class="wrapper">
+            <div class="top">
+                <ul>
+                    <li><span>价格亲民</span></li>
+                    <li><span>物流快捷</span></li>
+                    <li><span>品质新鲜</span></li>
+                </ul>
+            </div>
+            <div class="copyright">
+                <p>
+                    <a href="#">关于我们</a>
+                    <a href="#">帮助中心</a>
+                    <a href="#">售后服务</a>
+                    <a href="#">配送与验收</a>
+                    <a href="#">商务合作</a>
+                    <a href="#">搜索推荐</a>
+                    <a href="#">友情链接</a>
+                </p>
+                <p>
+                    CopyRight @ 小兔鲜儿"
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
